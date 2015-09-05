@@ -86,3 +86,5 @@ USE_TZ = True
 STATIC_PATH = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (STATIC_PATH,)
+
+LOGIN_URL = '/rango/login/'
